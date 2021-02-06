@@ -1,0 +1,27 @@
+	
+	let and const Exercise
+
+In this exercise, you’ll refactor some ES5 code into ES2015.
+
+	ES5 Global Constants
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+	ES2015 Global Constants
+/* Write an ES2015 Version */
+	In ES5 version, the use of var keyword to declare and initialize a variable PI allows for changing its value. To fix that, based on ES2015, we can use const keyword while declaring a variable so that it can neither be redeclared nor be reassigned a new value. Syntactically,
+	const PI = 3.14;
+
+		Quiz
+
+What is the difference between var and let?
+	Var has a function scope and also does variable hoisting. It can be redeclared and reassigned a value. Whereas, let has a block-scope, and cannot be redeclared but can be reassigned a value.
+
+What is the difference between var and const?
+	Var has a function scope and also allows variable hoisting. It can be redeclared and reassigned a value. Using const keyword, we cannot reassign or redeclare a value to a variable.
+	
+What is the difference between let and const?
+	Let allows for reassigning a value to a variable, but const is fixed and does not allow for reassigning a value to a variable.
+
+What is hoisting?
+	It is the process how compilers in JavaScript run variables declared with var keyword. So, variable hoisting means the JavaScript way in which variables are used before they are declared underneath in the program.
